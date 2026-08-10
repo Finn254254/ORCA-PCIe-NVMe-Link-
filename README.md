@@ -4,6 +4,18 @@ ORCA PCIe NVMe Link is a custom PCIe expansion board designed by Finn and brande
 
 ![Front render of the ORCA PCIe NVMe Link V3.0](images/pcb-render-front.png)
 
+## Support ORCA development
+
+The design work is complete enough to prepare for prototyping, but physical manufacturing, assembly, independent engineering review and hardware testing still need funding.
+
+If you want to help move ORCA from design files to a tested physical prototype:
+
+**[Support ORCA on Buy Me a Coffee](https://buymeacoffee.com/finnmather)**
+
+Support will be put toward prototype PCB fabrication, connectors and components, assembly, electrical and signal-integrity review, compatibility testing, and documentation. Progress and testing results will be documented in this repository.
+
+Contributions are voluntary support for development. They are not pre-orders, investments, equity, or guarantees that finished hardware will be delivered.
+
 ## Features
 
 - PCIe x4 host interface
