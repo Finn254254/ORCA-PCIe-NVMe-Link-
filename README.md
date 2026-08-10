@@ -32,9 +32,9 @@ Additional design, fabrication, and supporting files may be added as the project
 
 ### PCB layout
 
-| Routed layout | Copper view |
+| Top | Bottom |
 | --- | --- |
-| ![Routed PCB layout](images/pcb-layout-routed.png) | ![PCB copper view](images/pcb-layout-copper.png) |
+| ![Top PCB layout in red](images/pcb-layout-copper.png) | ![Bottom PCB layout in blue](images/pcb-layout-routed.png) |
 
 ### Schematic overview
 
