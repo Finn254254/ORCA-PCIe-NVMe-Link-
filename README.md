@@ -19,6 +19,7 @@ This project is in development. The design has not yet been represented as produ
 
 - `README.md` — project overview, current status, manufacturing warning, and rights notice
 - `images/` — PCB renders, layout views, and a schematic overview
+- `hardware/` — KiCad schematic and PCB source files, plus the BOM CSV
 
 Additional design, fabrication, and supporting files may be added as the project develops.
 
@@ -39,6 +40,26 @@ Additional design, fabrication, and supporting files may be added as the project
 ### Schematic overview
 
 ![PCIe x4 to M.2 NVMe schematic overview](images/schematic-overview.png)
+
+## Bill of Materials
+
+The full machine-readable BOM is available at [`hardware/BOM.csv`](hardware/BOM.csv).
+
+| Reference | Qty | Value / part | Footprint |
+| --- | ---: | --- | --- |
+| C1 | 1 | 10uF | 0805 SMD capacitor |
+| C2 | 1 | 100nF | 0402 SMD capacitor |
+| C3 | 1 | 22uF | 0805 SMD capacitor |
+| D1 | 1 | LED | 0603 SMD LED |
+| F1 | 1 | 3A fuse | 1206 SMD fuse |
+| J1 | 1 | PCIe x4 edge connector | PCIe x4 PCB edge |
+| J2 | 1 | M.2 M-key socket | TE 1-2199119-5 |
+| R1 | 1 | 1K | 0603 SMD resistor |
+
+## Hardware source files
+
+- [`ORCA PCIe NVMe Link V3.0.kicad_sch`](hardware/ORCA%20PCIe%20NVMe%20Link%20V3.0.kicad_sch) — KiCad schematic source
+- [`ORCA PCIe NVMe Link V3.0.kicad_pcb`](hardware/ORCA%20PCIe%20NVMe%20Link%20V3.0.kicad_pcb) — KiCad PCB layout source
 
 ## Manufacturing warning
 
