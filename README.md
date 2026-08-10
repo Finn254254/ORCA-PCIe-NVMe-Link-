@@ -2,6 +2,8 @@
 
 ORCA PCIe NVMe Link is a custom PCIe expansion board designed by Finn and branded ORCA Servers. It is intended to add M.2 NVMe storage through a PCIe x4 interface as part of the modular ORCA hardware platform.
 
+![Front render of the ORCA PCIe NVMe Link V3.0](images/pcb-render-front.png)
+
 ## Features
 
 - PCIe x4 host interface
@@ -16,8 +18,27 @@ This project is in development. The design has not yet been represented as produ
 ## Repository contents
 
 - `README.md` — project overview, current status, manufacturing warning, and rights notice
+- `images/` — PCB renders, layout views, and a schematic overview
 
 Additional design, fabrication, and supporting files may be added as the project develops.
+
+## Design gallery
+
+### PCB renders
+
+| Front | Back |
+| --- | --- |
+| ![Front PCB render](images/pcb-render-front.png) | ![Back PCB render](images/pcb-render-back.png) |
+
+### PCB layout
+
+| Routed layout | Copper view |
+| --- | --- |
+| ![Routed PCB layout](images/pcb-layout-routed.png) | ![PCB copper view](images/pcb-layout-copper.png) |
+
+### Schematic overview
+
+![PCIe x4 to M.2 NVMe schematic overview](images/schematic-overview.png)
 
 ## Manufacturing warning
 
