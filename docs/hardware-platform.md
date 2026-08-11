@@ -309,15 +309,22 @@ See the [main project page](../README.md).
 
 As ORCA grows, this platform page can act as the index. Individual board pages can live under `docs/boards/` and link back here.
 
+Board pages:
+
+- [`docs/boards/compute.md`](boards/compute.md)
+- [`docs/boards/io.md`](boards/io.md)
+- [`docs/boards/power.md`](boards/power.md)
+- [`docs/boards/control.md`](boards/control.md)
+- [`docs/boards/backplane.md`](boards/backplane.md)
+- [`docs/boards/network-fabric.md`](boards/network-fabric.md)
+- [`docs/boards/storage.md`](boards/storage.md)
+
+Software:
+
+- [`docs/software-platform.md`](software-platform.md) — companion software roadmap covering what runs on each board and how they talk to each other
+
 Suggested future pages:
 
-- `docs/boards/compute.md`
-- `docs/boards/io.md`
-- `docs/boards/power.md`
-- `docs/boards/control.md`
-- `docs/boards/backplane.md`
-- `docs/boards/network-fabric.md`
-- `docs/boards/storage.md`
 - `docs/interfaces/module-connector.md`
 - `docs/interfaces/management-bus.md`
 - `docs/roadmap.md`
